@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #add8e6;
+  gap: 3rem;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  font-size: larger;
+}
+
+.welcomeIntro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  font-size: xx-large;
+  color: #150f0b;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.timer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem;
+}
+/* form {
+  display: none;
+} */
+
+/* {
+  align-self: flex-end;
+  position: relative;
+} */

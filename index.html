@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Money Trader</title>
+  </head>
+  <body>
+    <div class="pageContainer">
+      <div class="headerContainer">
+        <span class="title">Money Trader</span>
+        <form class="login">
+        <label class="usernameLabel">Username : 
+        <input
+        class="inputUN"
+          type="text"
+          placeholder="Enter Username"
+          name="username"
+          required
+        />
+      </label>
+        <label class="Pin Label">Pin : 
+        <input class="inputPin" type="number" placeholder="Enter Pin" name="username" required />
+      </label>
+      <button class="loginButton">➡</button>
+    </form>
+      </div>
+
+        <div class="welcomeIntro">
+          <span class="username"> Welcome </span>
+        </div>
+        <div class="mainContainer">
+        <div class="grid">
+            <div class="moneyColumn">
+              <span >Moneys </span>
+              <p class="money">0000</p>
+            </div>
+            <div class="dateColumn">
+            <span >Dates</span>
+            <p class="dateRow">00/00/0000</p>
+          </div>
+          <div class="transactionContainer">
+            <p>Transactions</p>
+            <p class="transactionRow">0</p>
+          </div>
+        </div>
+          <form action="borrowGive">
+            <div class="actions">
+          <label for="recipient">With Whom do you want this transaction?</label>
+            <input type="text" class="recipientInput" />
+          <label for="borrow">Borrow</label>
+          <input type="number" class="borrowInput" />
+        </label>
+        <label for="give">Give</label>
+          <input type="number" class="giveInput"/>
+        </label>
+      </div>
+      <button class="transButton">GO</button>
+      </form>
+        <div class="timer">00:00
+           </div>
+          </div>
+  </body>
+  <script src="app.js"></script>
+</html>
